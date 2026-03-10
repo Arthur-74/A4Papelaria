@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papelaria Criativa | Atendimento Ágil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar fadeInDown">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="A4 Papelaria Logo" class="logo-img">
+                <!-- <span class="logo-text">A4 Papelaria</span> -->
+            </div>
+            <nav class="nav-links">
+                <a href="#produtos">Produtos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero fadeInUp">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Sua papelaria de confiança, agora mais rápida.</h1>
+                <p>Encontre materiais escolares, itens de escritório e serviços de impressão com a agilidade que você
+                    precisa. Fale com nosso assistente virtual e agilize seu atendimento.</p>
+                <button class="btn-primary" onclick="openChat()">Iniciar Atendimento</button>
+            </div>
+            <div class="hero-image">
+                <!-- Decorative element replacing real image for a minimalist feel -->
+                <div class="abstract-shape">
+                    <div class="circle"></div>
+                    <div class="square"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="produtos" class="services section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>O que você encontra aqui</h2>
+                <p>Muito além dos serviços ágeis, a A4 Papelaria oferece uma linha completa de produtos essenciais para
+                    os seus estudos e/ou escritório.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✏️</div>
+                    <h3>Papelaria e Escritório</h3>
+                    <p>Encontre canetas, cadernos variados, blocos de anotações, organizadores e suprimentos completos
+                        de escritório.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎒</div>
+                    <h3>Material Escolar</h3>
+                    <p>Trabalhamos com marcas de qualidade oferecendo mochilas, estojos, cadernos universitários, lápis
+                        de cor e muito mais.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📖</div>
+                    <h3>Livraria e Didáticos</h3>
+                    <p>Grande seleção de livros didáticos, paradidáticos, literatura em geral e dicionários para todas
+                        as idades escolares.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos soluções rápidas e eficientes para o seu dia a dia.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📄</div>
+                    <h3>Plastificação</h3>
+                    <p>Plastificação de documentos de diversos tamanhos para maior durabilidade e proteção.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h3>Encadernação</h3>
+                    <p>Encadernações profissionais para apostilas, trabalhos escolares e documentos importantes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🖨️</div>
+                    <h3>Fotocópias & Impressão</h3>
+                    <p>Impressões e fotocópias em geral: fotos, documentos, trabalhos e muito mais (P&B e Colorido).</p>
+                </div>
+            </div>
+            <div class="service-note text-center mt-2">
+                <small>*Atenção: Não realizamos serviços de digitação de textos.</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Fale Conosco</h2>
+                <p>Precisa de algo específico? Entre em contato diretamente pelo nosso WhatsApp.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Atendimento Rápido</h3>
+                        <p>Nossa equipe está pronta para te atender online.</p>
+                        <div class="contact-details">
+                            <p><strong>WhatsApp:</strong> (95) 99905-3019</p>
+                            <p><strong>Endereço:</strong> Avenida Nossa Senhora da Consolata - 2808, São Vicente - Boa
+                                Vista Roraima.</p>
+                        </div>
+                        <button class="btn-primary mt-2" onclick="openChat()">Iniciar Atendimento</button>
+                    </div>
+                </div>
+
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m3!1d3982.5!2d-60.672!3d2.825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d53e00000000001%3A0x0!2sAv.+Nossa+Sra.+da+Consolata%2C+2808+-+S%C3%A3o+Vicente%2C+Boa+Vista+-+RR!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+                        width="100%" height="300" style="border:0; border-radius: 8px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chat Widget -->
+    <div id="chat-widget" class="chat-widget hidden">
+        <div class="chat-header">
+            <div class="chat-header-info">
+                <span class="chat-avatar">
+                    <img src="chatbot.png" alt="Chatbot Icon" style="width: 120%; height: 120%; object-fit: cover;">
+                </span>
+                <div style="line-height: 16px;">
+                    <h4>Assistente Virtual</h4>
+                    <span class="status-indicator"></span>
+                    <small>Online agora</small>
+                </div>
+            </div>
+            <button class="close-btn" onclick="closeChat()">×</button>
+        </div>
+
+        <div id="chat-messages" class="chat-messages">
+            <!-- Messages will be injected here by JS -->
+        </div>
+
+        <div class="chat-input-area">
+            <input type="text" id="user-input" placeholder="Digite sua mensagem aqui..." autocomplete="off"
+                onkeypress="handleKeyPress(event)">
+            <button id="send-btn" onclick="sendMessage()">
+                <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Floating Chat Button -->
+    <button id="floating-chat-btn" class="floating-btn pulse" onclick="toggleChat()">
+        <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
